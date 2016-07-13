@@ -102,6 +102,52 @@ position: fixed;
 	border-radius: 0 4px 0 0; -webkit-border-radius: 0 4px 0 0; -moz-border-radius: 0 4px 0 0;
 }
 
+.pikabox {
+    position: absolute;
+    width: 385px;
+    height: 65px;
+    padding: 5px;
+    background: rgb(236, 238, 240);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    right: 150px;
+    top: 11em;
+    font-family: "Open Sans", Sans-serif, Arial
+}
+.pikabox:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 8px 0 8px 20px;
+    border-color: transparent #eceef0;
+    display: block;
+    width: 0;
+    z-index: 1;
+    right: -20px;
+    top: 39px
+}
+.pikaavatar {
+    background: none;
+    margin: 0px;
+    position: relative;
+    left: 1576px;
+    top:140px;
+    padding: 0px;
+    height: 75px!important;
+    width: 75px!important;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 5px solid rgba();
+}
+
+#pikatext {
+    position: relative;
+    top: 10px;
+
+}
+
 #navigation > ul > li > a > span
 {
 	display: block;
